@@ -29,7 +29,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="RdF-qf-JaZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Guestures" id="aPD-C3-pnN"/>
+                    <tabBarItem key="tabBarItem" title="Guestures" image="Gestures" id="aPD-C3-pnN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MOc-hA-7EU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -53,30 +53,47 @@
             </objects>
             <point key="canvasLocation" x="-764" y="-13"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Players-->
         <scene sceneID="0kf-EN-LtS">
             <objects>
-                <tableViewController id="HcO-dd-c8l" sceneMemberID="viewController">
+                <tableViewController id="HcO-dd-c8l" customClass="PlayersViewControllerTableViewController" customModule="Ratings" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RpF-Hg-yhi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Rde-Nb-NuR">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" textLabel="cfQ-f4-F3g" detailTextLabel="8kR-TV-ir6" style="IBUITableViewCellStyleSubtitle" id="Rde-Nb-NuR">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rde-Nb-NuR" id="Bb2-4T-3pG">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cfQ-f4-F3g">
+                                            <rect key="frame" x="16" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8kR-TV-ir6">
+                                            <rect key="frame" x="16" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="HcO-dd-c8l" id="USP-VV-tVh"/>
                             <outlet property="delegate" destination="HcO-dd-c8l" id="3cI-6f-nIj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="8ue-gn-U7W"/>
+                    <navigationItem key="navigationItem" title="Players" id="8ue-gn-U7W"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LyM-Br-ESu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,7 +103,7 @@
         <scene sceneID="Dip-je-zS0">
             <objects>
                 <navigationController id="eiw-S9-iz2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Players" id="ocj-d7-RYP"/>
+                    <tabBarItem key="tabBarItem" title="Players" image="Players" id="ocj-d7-RYP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7uJ-77-tyr">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -100,4 +117,8 @@
             <point key="canvasLocation" x="188" y="-393"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Gestures" width="30" height="30"/>
+        <image name="Players" width="30" height="30"/>
+    </resources>
 </document>
