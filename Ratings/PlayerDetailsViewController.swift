@@ -40,6 +40,10 @@ class PlayerDetailsViewController: UITableViewController {
         let playerName = nameTextField.text {
           player = Player(name: playerName, game: game, rating: 1)
       }
+      if segue.identifier == "PickGame",
+          let gamePickerViewController = segue.destination as? GamePickerViewController {
+          gamePickerViewController.selectedGame = game
+        }
     }
     
     override func viewDidLoad() {
