@@ -10,6 +10,7 @@
 		15359ECD2057DAF6006E121F /* PlayerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */; };
 		15359ECF2057E3B4006E121F /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ECE2057E3B4006E121F /* PlayerDetailsViewController.swift */; };
 		15359ED12057EB3E006E121F /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ED02057EB3E006E121F /* GamePickerViewController.swift */; };
+		15359ED420580F3E006E121F /* Players.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15359ED220580F3E006E121F /* Players.storyboard */; };
 		1A8673932056DEDC001E75BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8673922056DEDC001E75BD /* AppDelegate.swift */; };
 		1A8673952056DEDC001E75BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8673942056DEDC001E75BD /* ViewController.swift */; };
 		1A8673982056DEDC001E75BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8673962056DEDC001E75BD /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCellTableViewCell.swift; sourceTree = "<group>"; };
 		15359ECE2057E3B4006E121F /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
 		15359ED02057EB3E006E121F /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		15359ED320580F3E006E121F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Ratings/Base.lproj/Players.storyboard; sourceTree = "<group>"; };
 		1A86738F2056DEDC001E75BD /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8673922056DEDC001E75BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8673942056DEDC001E75BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 		1A8673862056DEDC001E75BD = {
 			isa = PBXGroup;
 			children = (
+				15359ED220580F3E006E121F /* Players.storyboard */,
 				1A8673912056DEDC001E75BD /* Ratings */,
 				1A8673902056DEDC001E75BD /* Products */,
 			);
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A86739D2056DEDC001E75BD /* LaunchScreen.storyboard in Resources */,
+				15359ED420580F3E006E121F /* Players.storyboard in Resources */,
 				1A86739A2056DEDC001E75BD /* Assets.xcassets in Resources */,
 				1A8673982056DEDC001E75BD /* Main.storyboard in Resources */,
 			);
@@ -168,6 +172,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		15359ED220580F3E006E121F /* Players.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15359ED320580F3E006E121F /* Base */,
+			);
+			name = Players.storyboard;
+			sourceTree = "<group>";
+		};
 		1A8673962056DEDC001E75BD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
