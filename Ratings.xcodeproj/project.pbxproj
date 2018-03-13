@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		15359ECD2057DAF6006E121F /* PlayerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */; };
 		15359ECF2057E3B4006E121F /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ECE2057E3B4006E121F /* PlayerDetailsViewController.swift */; };
+		15359ED12057EB3E006E121F /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ED02057EB3E006E121F /* GamePickerViewController.swift */; };
 		1A8673932056DEDC001E75BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8673922056DEDC001E75BD /* AppDelegate.swift */; };
 		1A8673952056DEDC001E75BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8673942056DEDC001E75BD /* ViewController.swift */; };
 		1A8673982056DEDC001E75BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8673962056DEDC001E75BD /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCellTableViewCell.swift; sourceTree = "<group>"; };
 		15359ECE2057E3B4006E121F /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		15359ED02057EB3E006E121F /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 		1A86738F2056DEDC001E75BD /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8673922056DEDC001E75BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8673942056DEDC001E75BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				1A8673A82056F414001E75BD /* SampleData.swift */,
 				15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */,
 				15359ECE2057E3B4006E121F /* PlayerDetailsViewController.swift */,
+				15359ED02057EB3E006E121F /* GamePickerViewController.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15359ED12057EB3E006E121F /* GamePickerViewController.swift in Sources */,
 				1A8673A72056F3C5001E75BD /* Player.swift in Sources */,
 				1A8673952056DEDC001E75BD /* ViewController.swift in Sources */,
 				15359ECD2057DAF6006E121F /* PlayerCellTableViewCell.swift in Sources */,

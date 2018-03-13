@@ -18,6 +18,16 @@ class PlayerDetailsViewController: UITableViewController {
     
     @IBOutlet weak var detailLabel: UILabel!
     
+    // MARK: - Initializers
+    required init?(coder aDecoder: NSCoder) {
+      print("init PlayerDetailsViewController")
+      super.init(coder: aDecoder)
+    }
+
+    deinit {
+      print("deinit PlayerDetailsViewController")
+    }
+    
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)  {
       if segue.identifier == "SavePlayerDetail",
