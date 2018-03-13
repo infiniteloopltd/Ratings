@@ -30,3 +30,13 @@ extension PlayersViewControllerTableViewController {
         return cell
     }
 }
+
+// MARK: - IBActions
+extension PlayersViewControllerTableViewController {
+
+  @IBAction func cancelToPlayersViewController(_ segue: UIStoryboardSegue) {
+  }
+
+  @IBAction func savePlayerDetail(_ segue: UIStoryboardSegue) {
+  }
+}
