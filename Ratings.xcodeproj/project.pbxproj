@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15359ECD2057DAF6006E121F /* PlayerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */; };
 		1A8673932056DEDC001E75BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8673922056DEDC001E75BD /* AppDelegate.swift */; };
 		1A8673952056DEDC001E75BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8673942056DEDC001E75BD /* ViewController.swift */; };
 		1A8673982056DEDC001E75BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8673962056DEDC001E75BD /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCellTableViewCell.swift; sourceTree = "<group>"; };
 		1A86738F2056DEDC001E75BD /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8673922056DEDC001E75BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A8673942056DEDC001E75BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				1A8673A42056F2D7001E75BD /* PlayersViewControllerTableViewController.swift */,
 				1A8673A62056F3C5001E75BD /* Player.swift */,
 				1A8673A82056F414001E75BD /* SampleData.swift */,
+				15359ECC2057DAF6006E121F /* PlayerCellTableViewCell.swift */,
 			);
 			path = Ratings;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				1A8673A72056F3C5001E75BD /* Player.swift in Sources */,
 				1A8673952056DEDC001E75BD /* ViewController.swift in Sources */,
+				15359ECD2057DAF6006E121F /* PlayerCellTableViewCell.swift in Sources */,
 				1A8673A52056F2D7001E75BD /* PlayersViewControllerTableViewController.swift in Sources */,
 				1A8673A92056F414001E75BD /* SampleData.swift in Sources */,
 				1A8673932056DEDC001E75BD /* AppDelegate.swift in Sources */,
