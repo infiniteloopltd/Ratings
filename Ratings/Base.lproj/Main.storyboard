@@ -228,6 +228,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="xZQ-ow-1Q3" kind="unwind" identifier="SaveSelectedGame" unwindAction="unwindWithSelectedGameWithSegue:" id="JlO-2D-eXe"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -237,6 +240,7 @@
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RQD-tv-gLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xZQ-ow-1Q3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3419" y="-415"/>
         </scene>
